@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Kale | Full Stack Java Developer</title>
+     <link rel="stylesheet" href="./css/style.css">
+   
+    
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+<script src="${pageContext.request.contextPath}/js/script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Dev.<span>Engineer</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <i class="fa-solid fa-moon" id="theme-toggle"></i>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Amar Kale</span></h1>
+            <h2 class="typing-container"><span class="typing-text">Full Stack Java Developer</span></h2>
+            <p>I specialize in building scalable, robust backend applications and creating seamless user experiences. Turning complex problems into elegant solutions.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <div class="abstract-shape">
+                    <i class="fa-brands fa-java main-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Skills Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>Precision-Engineered Solutions</h2>
+            <p>Passionate about crafting high-performance backend systems with Java and Spring Boot, coupled with modern frontend technologies.</p>
+        </div>
+        <div class="about-cards">
+            <div class="card glass">
+                <h3>0</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="card glass">
+                <h3>2+</h3>
+                <p>Projects</p>
+            </div>
+            <div class="card glass">
+                <h3>18+</h3>
+                <p>Commits</p>
+            </div>
+            <div class="card glass">
+                <h3>99.9%</h3>
+                <p>Uptime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack Section -->
+    <section class="stack">
+        <div class="stack-container">
+            <div class="skills-bars">
+                <h3>Technical Proficiency</h3>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Java/Hibernate/Spring core/Spring Boot</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>React/JS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>SQL/PostgreSQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tags-container">
+                <h3>Core Technologies</h3>
+                <div class="tags">
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Hibernate</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">Microservices</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">Servlet&JSP</span>
+                    <span class="tag">Git</span>
+                   <!--  <span class="tag">Linux</span> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Profile Section -->
+    <section id="profile" class="profile">
+        <div class="section-title">
+            <h2>Developer Profile</h2>
+            <p>My coding activity, problem-solving progress, and core tech stack.</p>
+        </div>
+        <div class="profile-container">
+            <!-- GitHub Stats Card -->
+            <div class="stat-card glass">
+                <div class="stat-header">
+                    <i class="fa-brands fa-github stat-icon"></i>
+                    <h3>GitHub Activity</h3>
+                </div>
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <h4>40</h4>
+                        <p>Total Commits</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>20</h4>
+                        <p>Repositories</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>1</h4>
+                        <p>Open Source PRs</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LeetCode Progress Card -->
+            <div class="stat-card glass">
+                <div class="stat-header">
+                    <i class="fa-solid fa-code stat-icon" style="color: #f89f1b;"></i>
+                    <h3>LeetCode Progress</h3>
+                </div>
+                <div class="leetcode-stats">
+                    <div class="lc-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle" stroke-dasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        </svg>
+                        <div class="lc-total">
+                            <span>35+</span>
+                            <small>Solved</small>
+                        </div>
+                    </div>
+                    <div class="lc-details">
+                        <div class="lc-bar-group">
+                            <div class="lc-label"><span>Easy</span><span>31</span></div>
+                            <div class="progress-bar"><div class="progress easy" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="lc-bar-group">
+                            <div class="lc-label"><span>Medium</span><span>3</span></div>
+                            <div class="progress-bar"><div class="progress medium" style="width: 60%;"></div></div>
+                        </div>
+                        <div class="lc-bar-group">
+                            <div class="lc-label"><span>Hard</span><span>1</span></div>
+                            <div class="progress-bar"><div class="progress hard" style="width: 25%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Stack Icons -->
+            <div class="stat-card glass tech-stack-card">
+                <h3>Tech Stack</h3>
+                <div class="tech-icons">
+                    <div class="tech-item"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="tech-item"><i class="fa-solid fa-leaf"></i><span>Spring</span></div>
+                    <div class="tech-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+                    <div class="tech-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                    <div class="tech-item"><i class="fa-brands fa-aws"></i><span>AWS</span></div>
+                    <div class="tech-item"><i class="fa-brands fa-docker"></i><span>Docker</span></div>
+                    <div class="tech-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                    <div class="tech-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                </div>
+            </div>
+
+            <!-- Resume Download -->
+            <div class="stat-card glass resume-card">
+                <i class="fa-regular fa-file-pdf resume-icon"></i>
+                <h3>Curriculum Vitae</h3>
+                <p>Get a detailed overview of my experience, skills, and education.</p>
+                <a href="#" class="btn btn-primary download-btn">
+                    <i class="fa-solid fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline / Milestones Section -->
+    <section class="timeline-section">
+        <div class="section-title">
+            <h2>Education & Certifications</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>Java Full Stack Development</h3>
+                  <!--   <p class="date">2023</p> -->
+                    <p>Focused on Java Full Stack Development using Java, Spring Boot, Hibernate, JPA, MySQL, HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>Electronics and Telecommunication Engineering</h3>
+                    <p class="date">2023 - 2027</p>
+                    <p>Pursuing Bachelor's degree in Electronics and Telecommunication Engineering with strong interest in software development and backend technologies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>Cyber Security & Technical Learning</h3>
+                  <!--   <p class="date">2015 - 2018</p> -->
+                    <p>Completed academic presentations and practical learning in Cyber Security, Computer Networks, and IoT-based systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <p>Recent work showcasing my expertise in full-stack development.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass">
+                <div class="project-image">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Cloud Inventory Engine</h3>
+                    <p>A highly scalable cloud-based inventory management system handling millions of transactions with real-time updates.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass">
+                <div class="project-image">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Secure Auth API</h3>
+                    <p>A robust authentication and authorization service implementing OAuth2, JWT, and multi-factor authentication.</p>
+                    <div class="project-tags">
+                        <span class="tag">Spring Security</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">React</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Let's discuss how we can work together.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>amarkale4690@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Pune, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form glass">
+                <!-- To this: -->
+                
+               <form action="contact" method="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/amarkale7219"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/amar-kale-89b2062ab/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2026 Amar Kale. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+     <script src="./js/script.js"></script>
+</body>
+</html>
